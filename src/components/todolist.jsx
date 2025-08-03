@@ -15,7 +15,7 @@ const setactivityarr = props.setactivityarr
 
 
     return (
-        <div className="bg-sky-400 p-3 border rounded-md flex-grow">
+        <div className="bg-sky-400 p-3 border rounded-md flex-grow flex-wrap">
             <h1 className="text-2xl font-medium">Today's Activity</h1>
             {activityarr.length === 0?<p>You haven't added any activity yet</p>:""}
 
